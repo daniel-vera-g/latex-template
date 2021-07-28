@@ -4,6 +4,7 @@ jobs:
   linting:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - name: LaTeX linter (chktex)
         uses: j2kun/chktex-action@1.0.3
   grammar-spelling:
