@@ -65,7 +65,7 @@ This template comes with a GitHub actions automation:
 
 1. Compile project
 2. Check errors(`chktex`)
-3. Check Grammer and spelling(`textidote`)
+3. Check Grammar and spelling(`textidote`)
 4. Optionally: Push updated PDF to repo and update images in README. For this, comment out and adapt the parts in
    `./.github/workflows/compile.yml`
 
