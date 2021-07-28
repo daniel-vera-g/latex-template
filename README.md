@@ -1,6 +1,7 @@
 # Latex template
 
-<!-- TODO CI/CD badges -->
+[![Build LaTeX document](https://github.com/daniel-vera-g/latex-template/actions/workflows/compile.yml/badge.svg)](https://github.com/daniel-vera-g/latex-template/actions/workflows/compile.yml)
+[![Text quality](https://github.com/daniel-vera-g/latex-template/actions/workflows/form.yml/badge.svg)](https://github.com/daniel-vera-g/latex-template/actions/workflows/form.yml)
 
 > Simple latex project powered by GitHub actions
 
