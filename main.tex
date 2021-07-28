@@ -1,0 +1,72 @@
+\documentclass[12pt]{article}
+
+\input{templates/structure.tex}
+
+\begin{document}
+
+\input{templates/cover.tex}
+
+\tableofcontents
+\newpage
+
+\begin{abstract}
+This is a \LaTeX~\cite{enwiki:1035188613} document.
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+\end{abstract}
+
+\section{Introduction}
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+\section{Description}%
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+
+\subsection{Features}%
+
+Here are some LaTeX features~\cite{latex-page}:
+
+\begin{displayquote}
+  \begin{enumerate}
+    \item Typesetting journal articles, technical reports, books, and slide presentations.
+    \item Control over large documents containing sectioning, cross-references, tables and figures.
+    \item Typesetting of complex mathematical formulas.
+    \item Advanced typesetting of mathematics with AMS-LaTeX.
+    \item Automatic generation of bibliographies and indexes.
+    \item Multi-lingual typesetting.
+    \item Inclusion of artwork, and process or spot colour.
+    \item Using PostScript or Metafont fonts.
+  \end{enumerate}
+\end{displayquote}
+
+\subsection{Analysis}%
+
+Figure~\ref{fig:-latex-logo} shows the \LaTeX logo.
+
+\begin{figure}[htpb]
+  \centering
+  \includegraphics[width=0.4\textwidth]{./img/latex-project-logo.png}
+  \caption{Latex logo}
+\label{fig:-latex-logo}
+  \source{\cite{latex-image}}
+\end{figure}
+
+\section{Conclusion}%
+\label{sec:conclusion}
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+\addcontentsline{toc}{section}{References} % Show Reference heading on TOC
+\bibliographystyle{plain}
+\bibliography{./references/references.bib}
+
+\end{document}
